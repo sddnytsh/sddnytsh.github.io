@@ -27,3 +27,9 @@
 [data-theme='dark'] .top-img {
   filter: brightness(0.8);
 }
+body {
+  background-image: url("/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
