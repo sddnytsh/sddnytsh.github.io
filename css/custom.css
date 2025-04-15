@@ -100,8 +100,13 @@
   /* 首页文章卡片 */
   #recent-posts > .recent-post-item {
     background: rgba(255, 255, 255, 0.9);
+    transition: background 0.3s ease;
   }
   
+  #recent-posts > .recent-post-item:hover {
+    background: rgba(255, 255, 255, 1); /* 鼠标悬停时的透明度 */
+  }
+
   /* 首页侧栏卡片 */
   #aside-content .card-widget {
     background: rgba(255, 255, 255, 0.9);
