@@ -8,7 +8,7 @@
       <link href="/2025/04/17/html/"/>
       <url>/2025/04/17/html/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="html简介">HTML简介</h1><p>超文本标记语言(HyperText Markup Language)是一种用于创建网页的标准标记语言。它不是一种编程语言，而是一种标记语言，标记语言是一套标记标签。HTML就是使用标记标签来描述网页。</p><p>HTML文档后缀可以是.htm，也可以是.html。</p><p>HTML 标签是由尖括号包围的关键词，比如 &lt;html&gt;。标签通常是成对出现的，比如&lt;b&gt;和&lt;/b&gt;，第一个出现的是开始标签，第二个则是结束标签。</p><h1 id="web浏览器">Web浏览器</h1><p>Web浏览器（如谷歌浏览器，Internet Explorer，Firefox，Safari）是用于读取HTML文件，并将其作为网页显示。</p><p>浏览器并不是直接显示的HTML标签，但可以使用标签来决定如何展现HTML页面的内容给用户。</p><p>值得一提的是只有&lt;body&gt;区域才会在浏览器显示。</p><h1 id="a-href-https-developer-mozilla-org-zh-cn-docs-learn-web-development-core-structuring-content-html基础-a"><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Structuring_content">HTML基础</a></h1>]]></content>
       
       
       <categories>
