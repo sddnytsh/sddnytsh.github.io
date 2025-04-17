@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Node.js</title>
+      <link href="/2025/04/17/nodejs/"/>
+      <url>/2025/04/17/nodejs/</url>
+      
+        <content type="html"><![CDATA[<h1 id="什么是node-js">什么是node.js</h1><p>Node.js是JavaScript语言的服务器运行环境。它允许开发者在服务器端运行 JavaScript 代码。</p><h1 id="npm">npm</h1><p>npm(node package manager)是Node的包管理工具，会随着Nodejs一起安装，能解决NodeJS代码部署上的很多问题。到目前为止，npm差不多收集了60w个别人写好的包，每个包就是一个功能，一个需求，npm里面有关于创建服务器的包，启动电脑摄像头的包，如果正好我们有这些需求，那么我们就没必要自己去写代码，完全可以用别人已经写好的包。<br>可以通过&quot;npm -v&quot;来测试是否成功安装<br><img src="/img/nodejs/npm-v.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -javascript </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>树状数组</title>
       <link href="/2025/04/17/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/"/>
       <url>/2025/04/17/%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84/</url>
