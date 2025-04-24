@@ -1,7 +1,66 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-gap: 10px;
+/* 基本样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 导航栏样式 */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 网格布局样式 */
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 每行3列 */
+    grid-template-rows: repeat(2, 100px); /* 2行，每行高度100px */
+    gap: 10px; /* 网格间距 */
+    padding: 10px;
+  }
+  
+  .box {
+    background-color: #f9f9f9; /* 背景颜色 */
+    border: 1px solid #ccc; /* 边框 */
+    padding: 20px; /* 内边距 */
+    text-align: center; /* 文本居中 */
+    font-size: 18px; /* 字体大小 */
+    color: #333; /* 字体颜色 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+  }
